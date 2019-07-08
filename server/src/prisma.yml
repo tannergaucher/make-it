@@ -1,0 +1,8 @@
+endpoint: https://us1.prisma.sh/tanner-gaucher/make-it-server/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
+  - generator: graphql-schema
+    output: ./generated/prisma.graphql
